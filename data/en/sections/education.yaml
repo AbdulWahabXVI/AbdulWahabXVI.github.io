@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Matriculation
+  icon: fa-microscope
+  timeframe: 2020-2022
+  institution:
+    name: The Educators Humak Campus.
+    url: "#"
+  grade: #(optional)
+    scale: Scored
+    achieved: 881
+    outOf: 1100
+#  publications: #(optional)
+#  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    url: "#"
+#  - title: Fusce eu augue ut odio porttitor pulvinar.
+#    url: "#"
+#  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#    url: "#"
+#- name: Secondary School Certificate
+#  icon: fa-school
+#  timeframe: 2005-2010
+#  institution:
+#    name: JK School of Science
+#  grade: #(optional)
+#    scale: GPA
+#    achieved: 4.5
+#    outOf: 5
