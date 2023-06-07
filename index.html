@@ -11,255 +11,262 @@
 <body>
     <audio id="btn-hover-sound" src="audio/btn-hover-sound.wav"></audio>
     <audio id="btn-press-sound" src="audio/btn-hover-sound.mp3"></audio>
-    <div id="main">    
-        <div id="content">
-            <div id="header">
-                <div id="nav-btn-container">
-                    <button class="nav-btn active" onclick="openContent(event, 'Home')" 
-                    onpointerover="document.getElementById('btn-hover-sound').play();"
-                    id="homeBtn">Home</button>
-                    <!--<button class="nav-btn" onclick="openContent(event, 'Exps')" 
-                    onpointerover="document.getElementById('btn-hover-sound').play();"
-                    >Experiences</button>-->
-                    <button class="nav-btn" onclick="openContent(event, 'Skls')" 
-                    onpointerover="document.getElementById('btn-hover-sound').play();"
-                    >Skills</button>
-                    <button class="nav-btn" onclick="openContent(event, 'Edct')" 
-                    onpointerover="document.getElementById('btn-hover-sound').play();"
-                    >Education</button>
-                    <button class="nav-btn" onclick="openContent(event, 'Prjt')" 
-                    onpointerover="document.getElementById('btn-hover-sound').play();"
-                    >Projects</button>
-                </div>
-            </div>
-            <div class="form content">
-                <center>
-                    <div id="Home" class="nav-content">
-                        <br>
-                        <div id="heading">
-                            Home
-                        </div>
-                        <br>
-                        <div class="form slideshow">
-
-                        </div>
-                    </div>
-                    <div id="Exps" class="nav-content">
-                        <br>
-                        <div id="heading">
-                            Experiences
-                        </div>
-                        <br>
-                    </div>
-                    <div id="Skls" class="nav-content">
-                        <br>
-                        <div id="heading">
-                            Skills
-                        </div>
-                        <div class="form skills">
-                            <div class="form skill" id="skill1" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                80%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill2" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                90%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill3" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                85%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill4" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                70%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill5" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                80%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill6" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                50%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill7" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                90%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill8" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                100%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form skill" id="skill9" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-level">
-                                        <div class="item-cover">
-                                            <div class="item-text">
-                                                75%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Edct" class="nav-content">
-                        <br>
-                        <div id="heading">
-                            Education
-                        </div>
-                        <br>
-                        <div class="form experiences">
-                            <div class="form experience" id="education1" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-bg">
-                                        <div class="item-fg">
-                                            2020-22
-                                        </div>
-                                        <div class="item-text">
-                                            <br>
-                                            <h2 id="certificate">Matriculation</h3>
-                                            <h4 id="center">The Educators</h4>
-                                            <h6 id="campus">High School</h6>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form experience" id="education2" onmouseenter="document.getElementById('btn-hover-sound').play();">
-                                <div class="item-img"></div>
-                                <div class="item-container">
-                                    <div class="item-bg">
-                                        <div class="item-fg">
-                                            2022-24
-                                        </div>
-                                        <div class="item-text">
-                                            <br>
-                                            <h2 id="certificate">Intermediate in Computer Science</h2>
-                                            <h4 id="center">Army Public Schools And Colleges</h4>
-                                            <h6 id="campus">College</h6>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>             
-                    </div>
-                    <div id="Prjt" class="nav-content">
-                        <br>
-                        <div id="heading">
-                            No Projects Here...
-                        </div>
-                        <br>                       
-                    </div>
-                </center>
-            </div>
-        </div>
-        <div id="contact">
+    <div id="main">
+        <div id="header">
             <div id="logo-container">
                 <button class="nav-btn" id="logo" onclick="openContent(event, 'Home')" 
                 onpointerover="document.getElementById('btn-hover-sound').play();"
                 ></button>
             </div>
-            <div class="form contact">
-                <div class="dp-container">
-                    <div id="dp"></div>
+            <div id="nav-btn-container">
+                <button class="nav-btn active" onclick="openContent(event, 'Home')" 
+                onpointerover="document.getElementById('btn-hover-sound').play();"
+                id="homeBtn">Home</button>
+                <!--<button class="nav-btn" onclick="openContent(event, 'Exps')" 
+                onpointerover="document.getElementById('btn-hover-sound').play();"
+                >Experiences</button>-->
+                <button class="nav-btn" onclick="openContent(event, 'Skls')" 
+                onpointerover="document.getElementById('btn-hover-sound').play();"
+                >Skills</button>
+                <button class="nav-btn" onclick="openContent(event, 'Edct')" 
+                onpointerover="document.getElementById('btn-hover-sound').play();"
+                >Education</button>
+                <button class="nav-btn" onclick="openContent(event, 'Prjt')" 
+                onpointerover="document.getElementById('btn-hover-sound').play();"
+                >Projects</button>
+            </div> 
+        </div>
+        <div id="portfolio">
+            <div id="contact">
+                <div class="form contact">
+                    <div class="dp-container">
+                        <div id="dp"></div>
+                    </div>
+                    <div class="personaldata-container">
+                        <h3>
+                            Abdul Wahab
+                            <br>
+                            <br>
+                            Freelancer
+                        </h3>
+                        <h5>
+                            Email:
+                            <br>
+                            abdulwahabxvi@gmail.com
+                        </h5>
+                        <div id="pdcbreaker">
+
+                        </div>
+                        <div class="smedia-container">
+                            <a class="smedia-icon" id="smedia-icon-in" href="https://instagram.com/abdulwahabxvi"></a>
+                            <a class="smedia-icon" id="smedia-icon-tw" href="https://twitter.com/AbdulWahabXVI"></a>
+                            <a class="smedia-icon" id="smedia-icon-gh" href="https://github.com/AbdulWahabXVI"></a>
+                            <a class="smedia-icon" id="smedia-icon-li" href="https://www.linkedin.com/in/abdul-wahab-a20348250/"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="personaldata-container">
-                    <h3>
-                        Abdul Wahab
-                        <br>
-                        <br>
-                        Freelancer
-                    </h3>
-                    <h5>
-                        Email:
-                        <br>
-                        abdulwahabxvi@gmail.com
-                    </h5>
-                </div>
-                <div class="smedia-container">
-                    <a class="smedia-icon" id="smedia-icon-in" href="https://instagram.com/abdulwahabxvi"></a>
-                    <a class="smedia-icon" id="smedia-icon-tw" href="https://twitter.com/AbdulWahabXVI"></a>
-                    <a class="smedia-icon" id="smedia-icon-gh" href="https://github.com/AbdulWahabXVI"></a>
-                    <a class="smedia-icon" id="smedia-icon-li" href="https://www.linkedin.com/in/abdul-wahab-a20348250/"></a>
+            </div>
+            <div id="content">
+                <div class="form content">
+                    <center>
+                        <div id="Home" class="nav-content">
+                            <br>
+                            <div id="heading">
+                                Home
+                            </div>
+                            <br>
+                            <div class="form slideshow">
+    
+                            </div>
+                        </div>
+                        <div id="Exps" class="nav-content">
+                            <br>
+                            <div id="heading">
+                                Experiences
+                            </div>
+                            <br>
+                        </div>
+                        <div id="Skls" class="nav-content">
+                            <br>
+                            <div id="heading">
+                                Skills
+                            </div>
+                            <div class="form skills">
+                                <div class="form skill" id="skill1" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    80%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill2" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    90%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill3" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    85%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill4" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    70%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill5" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    80%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill6" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    50%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill7" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    90%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill8" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    100%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form skill" id="skill9" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-level">
+                                            <div class="item-cover">
+                                                <div class="item-text">
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Edct" class="nav-content">
+                            <br>
+                            <div id="heading">
+                                Education
+                            </div>
+                            <br>
+                            <div class="form educations">
+                                <div class="form education" id="education1" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-bg">
+                                            <div class="item-fg">
+                                                2020-22
+                                            </div>
+                                            <div class="item-text">
+                                                <br>
+                                                <h2 id="certificate">Matriculation</h3>
+                                                <h4 id="center">The Educators</h4>
+                                                <h6 id="campus">High School</h6>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form education" id="education2" onmouseenter="document.getElementById('btn-hover-sound').play();">
+                                    <div class="item-img"></div>
+                                    <div class="item-container">
+                                        <div class="item-bg">
+                                            <div class="item-fg">
+                                                2022-24
+                                            </div>
+                                            <div class="item-text">
+                                                <br>
+                                                <h2 id="certificate">Intermediate in Computer Science</h2>
+                                                <h4 id="center">Army Public Schools And Colleges</h4>
+                                                <h6 id="campus">College</h6>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>             
+                        </div>
+                        <div id="Prjt" class="nav-content">
+                            <br>
+                            <div id="heading">
+                                No Projects Here...
+                            </div>
+                            <br>                       
+                        </div>
+                    </center>
                 </div>
             </div>
         </div>
     </div>
 </body>
 <style>
+    #Home{
+        height: 100%;
+    }
+
     body, html{
         padding: 0;
         margin: 0;
         font-family: 'Comfortaa';
-        min-height: 300px;
-        min-width: 600px;
         overflow: overlay;
     }
 
@@ -267,6 +274,7 @@
         background: url("images/mbg.jpg");
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
     
     #header{
@@ -283,10 +291,22 @@
         position: relative;
         height: 100%;
         width: 100%;
-        display: flex;
+        display: block;
         align-items: center;
     }
+    #portfolio{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
 
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        #portfolio {
+            display: block;
+        }
+    }
     #contact{
         width: 20%;
         height: 100%;
@@ -295,6 +315,14 @@
         
         display: block;
         align-items: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        #contact {
+            width: 100%;
+            height: 20%;
+        }
     }
     #content{
         width: 80%;
@@ -304,25 +332,47 @@
         
         display: block;
         align-items: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        #content {
+            width: 100%;
+            height: 80%;
+        }
     }
 
-    .form.content{
-        height: 88%;
-        width: auto;
-        margin-right: 10px;
-        margin-left: 10px;
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
     .form.contact{
-        height: 88%;
+        height: 95%;
         width: auto;
         margin-right: 10px;
         margin-left: 10px;
         display: block;
         align-items: center;
         justify-content: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        .form.contact {
+           display: flex;
+        }
+    }
+    .form.content{
+        height: 95%;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        .form.content {
+           height: 100%;
+        }
     }
 
     #footer{
@@ -331,22 +381,56 @@
     }
 
     .dp-container{
-        height: 30%;
+        height: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        .dp-container {
+            width: 30%;
+            height: 100%;
+        }
     }
 
     .personaldata-container{
-        height: 40%;
+        height: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
         display: block;
+        justify-content: center;
+        align-items: center;
         color: white;
         text-align: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        .personaldata-container{
+            height: 100%;
+            width: 70%;
+            display: block;
+            justify-content: none;
+            align-items: none;
+        }
     }
 
     .personaldata-container h3, .personaldata-container h5{
         text-shadow: 0px 0px 10px rgba(10, 10, 30, 1);
-        width: 100%;
+        font-size: 1.2vw;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        .personaldata-container h3, .personaldata-container h5{
+            font-size: 1.2vh;
+        }
+    }
+
+    #pdcbreaker{
+        height: auto;
     }
 
     .smedia-container{
@@ -354,6 +438,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: auto;
+        padding-bottom: auto;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        .smedia-container{
+            height: 40%;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     .smedia-icon{
@@ -393,32 +489,56 @@
         background-image: url("smedia/linkedin.png");
     }
 
-    #dp{
-        padding-top: 25%;
-        padding-bottom: 25%;
-        width: 50%;
-        border-radius: 50%;
-        background-image: url("images/dp.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        filter: drop-shadow(0px 0px 10px rgba(10, 10, 37, 1));
+    @media only screen and (min-width: 1000px){
+        #dp{
+            padding-top: 25%;
+            padding-bottom: 25%;
+            width: 50%;
+            border-radius: 50%;
+            background-image: url("images/dp.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: drop-shadow(0px 0px 10px rgba(10, 10, 37, 1));
+    
+            transition: width 0.5s, padding-top 0.5s, padding-bottom 0.5s, filter 0.5s, ease all .5s;
+        }
+    }
+    @media only screen and (max-width: 1000px) {
+        #dp{
+            padding-top: 25%;
+            padding-bottom: 25%;
+            width: 50%;
+            border-radius: 50%;
+            background-image: url("images/dp.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: drop-shadow(0px 0px 10px rgba(10, 10, 37, 1));
 
-        transition: width 0.5s, padding-top 0.5s, padding-bottom 0.5s, filter 0.5s;
+            transition: width 0.5s, padding-top 0.5s, padding-bottom 0.5s, filter 0.5s, ease all .5s;
+        }
     }
 
     #dp:hover{
-        padding-top: 30%;
-        padding-bottom: 30%;
-        width: 60%;
+        padding-top: 40%;
+        padding-bottom: 40%;
+        width: 80%;
         filter: drop-shadow(0px 0px 5px rgba(10, 10, 30, 1));
     }
 
     #logo-container{
-        height: 10%;
-        width: 100%;
+        height: 100%;
+        width: 20%;
         display: flex;
         align-items: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        #logo-container{
+            width: 0%;
+        }
     }
     #logo{
         border-radius: 0px;
@@ -433,16 +553,21 @@
         background-repeat: no-repeat;
         overflow: visible;
 
-        transition: height 0.5s, width 0.5s;
+        transition: height 0.5s, width 0.5s, ease all 0.5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        #logo{
+            background-image: none;
+        }
     }
     #logo:hover{
         height: 90%;
-        width: 90%;
+        width: 75%;
     }
 
     #heading{
         border-radius: 15px;
-        background-color: rgba(10, 10, 30, 0.75);
+        background-color: transparent;
         box-shadow: 0px 0px 20px rgba(10, 10, 30, 1);
         color: white;
         height: 5%;
@@ -467,11 +592,18 @@
 
     #nav-btn-container{
         height: 100%;
-        width: 100%;
+        width: 80%;
         margin-left: 10px;
         margin-right: 10px;
         display: flex;
         align-items: center;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        #nav-btn-container{
+            width: 100%;
+        }
     }
 
     .nav-btn{
@@ -502,6 +634,13 @@
         background-color: rgba(255, 255, 255, 0.75);
         color: black;
         border-radius: 25px;
+
+        transition: ease all .5s;
+    }
+    @media only screen and (max-width: 1000px) {
+        .nav-btn.active{
+            width: 100px;
+        }
     }
     .nav-btn.active:hover{
         border-radius: 15px;
@@ -537,13 +676,17 @@
     .form.slideshow{
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         height: 85%;
         width: 95%;
+        margin-top: auto;
+        margin-bottom: auto;
 
         animation: changesshow 10s infinite;
 
         transition: border-radius .5s;
     }
+    
     .slideshow:hover{
         border-radius: 20px;
     }
@@ -562,7 +705,6 @@
         width: 95%;
         display: block;
         padding: 10px;
-        margin: 10px;
         overflow: scroll;
     }
    
@@ -593,11 +735,31 @@
         background-position: center;
         filter: drop-shadow(0px 0px 10px rgba(10, 10, 30, 0.75));
 
-        transition: background-position .5s, height .5s, width .5s;
+        transition: background-position .5s, height .5s, width .5s, ease all 0.5s;
     }
     .form.skill:hover .item-img{
         background-position: left;
         width: 35%;
+    }
+
+    @media only screen and (max-width:500px){
+        .form.skill .item-img{
+            top: 0%;
+            left: 0%;
+            height: 80%;
+            width: 80%;
+            margin: auto; 
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: drop-shadow(0px 0px 10px rgba(10, 10, 30, 0.75));
+
+            transition: background-position .5s, height .5s, width .5s;
+        }
+        .form.skill:hover .item-img{
+            background-position: top;
+            width: 35%;
+        }
     }
 
     #skill1 .item-img{
@@ -635,11 +797,27 @@
         align-items: center;
         justify-content: center;
 
-        transition: width .5s, height .5s;
+        transition: width .5s, height .5s, ease all 0.5s;
     }
     .form.skill:hover .item-container{
         height: 0px;
         width: 50%;
+    }
+
+    @media only screen and (max-width: 500px){
+        .form.skill .item-container{
+            height: 0px;
+            width: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            transition: width .5s, height .5s;
+        }
+        .form.skill:hover .item-container{
+            height: 0px;
+            width: 70%;
+        }
     }
 
     .form.skill .item-level{
@@ -698,12 +876,33 @@
         justify-content: center;
         box-shadow: 0px 0px 10px rgba(10, 10, 30, 0.75);
 
-        transition: width .5s, height .5s, padding-top .5s, padding-bottom .5s;
+        transition: width .5s, height .5s, padding-top .5s, padding-bottom .5s, ease all 0.5s;
     }
     .form.skill:hover .item-cover{
         padding-top: 20%;
         padding-bottom: 20%;
         width: 40%;
+    }
+
+    @media only screen and (max-width: 500px){
+        .form.skill .item-cover{
+            height: 0px;
+            width: 0px;
+            border-radius: 100px;
+            position: absolute;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 10px rgba(10, 10, 30, 0.75);
+
+            transition: width .5s, height .5s, padding-top .5s, padding-bottom .5s;
+        }
+        .form.skill:hover .item-cover{
+            padding-top: 27.5%;
+            padding-bottom: 27.5%;
+            width: 55%;
+        }
     }
 
     #skill1 .item-cover{
@@ -754,7 +953,7 @@
         text-shadow: rgba(10, 10, 30, 1);
     }
     
-    .form.experiences{
+    .form.educations{
         border-radius: 0px;
         background-color: transparent;
         box-shadow: 0px 0px 10px rgba(10, 10, 30, 0); 
@@ -766,7 +965,7 @@
         overflow: scroll;
     }
 
-    .form.experience{
+    .form.education{
         border-radius: 0px;
         background-color: transparent;
         height: 50%;
@@ -782,7 +981,7 @@
 
     }
 
-    .form.experience .item-img{
+    .form.education .item-img{
         top: 0%;
         left: 0%;
         height: 80%;
@@ -795,7 +994,7 @@
 
         transition: background-position .5s, height .5s, width .5s;
     }
-    .form.experience:hover .item-img{
+    .form.education:hover .item-img{
         background-position: left;
         width: 10%;
     }
@@ -808,7 +1007,7 @@
     }
 
 
-    .form.experience .item-container{
+    .form.education .item-container{
         height: 0px;
         width: 0px;
         display: flex;
@@ -817,12 +1016,12 @@
 
         transition: width .5s, height .5s;
     }
-    .form.experience:hover .item-container{
+    .form.education:hover .item-container{
         height: 100%;
         width: 90%;
     }
 
-    .form.experience .item-bg{
+    .form.education .item-bg{
         height: 0px;
         width: 0px;
         border-radius: 50px;
@@ -834,13 +1033,13 @@
         
         transition: width .5s, height .5s, padding-bottom .5s, padding-top .5s, background-image 5s;
     }
-    .form.experience:hover .item-bg{
+    .form.education:hover .item-bg{
         border-radius: 20px;
         height: 90%;
         width: 90%;
     }
 
-    .form.experience .item-fg{
+    .form.education .item-fg{
         position: absolute;
         
         color: white;
@@ -856,7 +1055,7 @@
 
         transition: width .5s, height .5s, padding-top .5s, padding-bottom .5s;
     }
-    .form.experience:hover .item-fg{
+    .form.education:hover .item-fg{
         top: 7%;
         right: 5%;
         font-size: 24px;
@@ -869,7 +1068,7 @@
         padding-bottom: 2px;
     }
 
-    .form.experience .item-text{
+    .form.education .item-text{
         font-size: 0px;
         color: white;
         text-align: right;
@@ -877,11 +1076,11 @@
         
         transition: font-size .5s;
     }
-    .form.experience:hover .item-text{
+    .form.education:hover .item-text{
         font-size: 24px;
     }
     
-    .form.experience .item-text #certificate, .form.experience .item-text #center, .form.experience .item-text #campus{
+    .form.education:hover .item-text #certificate, .form.education:hover .item-text #center, .form.education:hover .item-text #campus{
         margin-left: auto;
         margin-right: auto;
         border-radius: 25px;
@@ -889,6 +1088,14 @@
         text-shadow: 0px 0px 20px rgba(10, 10, 30, 1);
         padding-left: 10px;
         padding-right: 10px;
+
+        transition: ease all 0.5s, font-size 0.5s;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .form.education:hover .item-text #certificate, .form.education:hover .item-text #center, .form.education:hover .item-text #campus{
+            font-size: 3vw;
+        }
     }
 
     ::-webkit-scrollbar{
